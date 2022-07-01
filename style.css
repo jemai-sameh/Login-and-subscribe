@@ -1,0 +1,81 @@
+.h_form .h_label{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #22A7F0;
+    color: white;
+    border: none;
+
+
+}
+.h_form .h_input{
+    display:block;
+    width: 100%;
+    height:  30px;;
+    box-sizing: border-box;
+
+
+
+}
+body{
+    background-color:  bisque;
+}
+*{
+    padding: 0px;
+    margin:0px ;
+}
+.h_form{
+    width: 50%;
+    margin:10% auto;
+    border: none;
+    padding: 15px;
+        box-sizing: border-box;
+    border-radius: 50px;
+    background-color: rgba(140, 237, 240, 0.164);
+}
+.h_form .h_button{
+   margin: 10px auto;
+
+   border: none;
+   color: white;
+   background-color: dodgerblue;
+   padding: 10px;
+   display: block;
+   font-size: 18px;
+}
+.h_form .h_button:hover{
+    cursor: pointer;
+    background: slateblue;
+}
+.h_form .h_button:active{
+    border: none;
+    background: rgb(78, 71, 122);
+}
+.h_form h3{
+    color: rgb(173, 164, 164);
+    font-size: 18px;
+    text-align: center;
+    padding: 18px;
+}
+
+/*
+@media (min-width:845){
+    .h_form{
+        width: 50%;
+    }
+}
+@media (min-width:360px){
+    .h_form{
+        width: 50%;
+
+    }
+    
+}
+@media (min-width:457px)and( max-width:844px){
+    .h_form{
+        width: 50%;
+
+    }
+    
+}*/
